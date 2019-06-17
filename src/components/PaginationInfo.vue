@@ -1,13 +1,13 @@
 <template>
 <div class="text-right justify-content-center">
     <template v-if="currentPageRowsLength != 0">
-        From 1 to {{currentPageRowsLength}} of {{filteredRowsLength}} entries
+        C 1 по {{currentPageRowsLength}} из {{filteredRowsLength}} записей
     </template>
     <template v-else>
-        No results found
+        Ничего не найдено
     </template>
     <template>
-         ({{originalRowsLength}} total records)
+         ({{originalRowsLength}} записей всего)
     </template>
 </div>
 </template>
