@@ -197,13 +197,13 @@
                                             <template v-if="pagination_info">
                                                 <slot name="pagination-info" :currentPageRowsLength="currentPageRowsLength" :filteredRowsLength="filteredRowsLength" :originalRowsLength="originalRowsLength">
                                                     <template v-if="currentPageRowsLength != 0">
-                                                        From 1 to {{currentPageRowsLength}} of {{filteredRowsLength}} entries
+                                                        C 1 по {{currentPageRowsLength}} из {{filteredRowsLength}} записей
                                                     </template>
                                                     <template v-else>
-                                                        No results found
+                                                        Ничего не найдено
                                                     </template>
                                                     <template>
-                                                        ({{originalRowsLength}} total records)
+                                                        ({{originalRowsLength}} записей всего)
                                                     </template>
                                                 </slot>
                                             </template>
@@ -257,13 +257,13 @@
                             <template v-if="pagination_info">
                                 <slot name="pagination-info" :currentPageRowsLength="currentPageRowsLength" :filteredRowsLength="filteredRowsLength" :originalRowsLength="originalRowsLength">
                                     <template v-if="currentPageRowsLength != 0">
-                                        From 1 to {{currentPageRowsLength}} of {{filteredRowsLength}} entries
+                                        C 1 по {{currentPageRowsLength}} из {{filteredRowsLength}} записей
                                     </template>
                                     <template v-else>
-                                        No results found
+                                        Ничего не найдено
                                     </template>
                                     <template>
-                                        ({{originalRowsLength}} total records)
+                                        ({{originalRowsLength}} записей всего)
                                     </template>
                                 </slot>
                             </template>
